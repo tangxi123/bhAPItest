@@ -1,7 +1,7 @@
 from openpyxl import load_workbook
 
 def getData(filename, testPoint):
-    wb = load_workbook('E:\\Projects\\bhAPItest\\data\\'+ filename)
+    wb = load_workbook('F:\\Projects\\bhAPItest\\bhAPItest\\data\\'+ filename)
     ws = wb['Sheet1']
     start = 0 #起始位置
     interval = 0#间隔位置
